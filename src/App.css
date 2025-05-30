@@ -1,0 +1,49 @@
+/* Project Card Styling */
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Two cards per row */
+  gap: 20px; /* spacing between cards */
+}
+
+.project-card {
+  border: 1px solid #474545;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  background-color: #5e5c5c;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  color: #e0e6ed;
+  text-align: left;
+}
+
+.project-card:hover {
+  background-color: #1a3b6e;
+  transform: translateY(-4px);
+}
+
+.project-card h2 {
+  margin: 0 0 12px;
+  font-size: 1.8rem;
+  color: #d081c8;
+}
+
+.project-card .author {
+  font-size: 0.95rem;
+  color: #94a3b8;
+  margin-bottom: 1px;
+}
+
+.project-card .category {
+  font-size: 0.85rem;
+  color: #7fa7d6;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.project-card p {
+  font-size: 1rem;
+  color: #e2e8f0;
+  margin-top: 0.5rem;
+}
