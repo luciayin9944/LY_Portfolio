@@ -10,21 +10,27 @@ export const Contact = () => {
         message: ""
     })
 
-    const SERVICE_ID = "service_nqt3l2q";
-    const TEMPLATE_ID = "template_ft7nhsq";
-    const PUBLIC_KEY = "h024ZfhoFMaw7jIwr";
+    // const SERVICE_ID = "your_service_id";
+    // const TEMPLATE_ID = "your_template_id";
+    // const PUBLIC_KEY = "your_public_key";
 
     const handleSubmit = (e) => {
         e.preventDefault()
 
         emailjs
-            .sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY)
+            // .sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY)
+            .sendForm(
+                import.meta.env.VITE_SERVICE_ID, 
+                import.meta.env.VITE_TEMPLATE_ID, 
+                e.target, 
+                import.meta.env.VITE_PUBLIC_KEY
+            )
             .then((result) => {
                 alert("Message Sent!");
                 //reset
                 setFormData({ name:"", email:"", message:""});
-            }).catch(() => alert("Oops! Please try again."))
-
+            })
+            .catch(() => alert("Oops! Please try again."))
     };
 
     return (
