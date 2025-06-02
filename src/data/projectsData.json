@@ -1,30 +1,34 @@
 [
     {
       "id": 1,
-      "title": "Responsive Portfolio Website",
-      "description": "A sleek, modern portfolio built with HTML, CSS, and JavaScript. Fully responsive and optimized for mobile.",
+      "title": "Responsive E-commerce Admin Portal",
+      "description": "A modern E-commerce Admin Portal built with React.js, and CSS. It allows administrators to manage a coffee shop catalog through a clean UI and intuitive navigation.",
       "category": "Frontend",
-      "author": "Alice Kim"
+      "tags":["React.js", "CSS", "HTML"],
+      "gitURL": "https://github.com/luxiay/React_Coffee_Shop_Web"
     },
     {
       "id": 2,
-      "title": "REST API for E-commerce App",
-      "description": "Designed and developed a secure RESTful API using Node.js, Express, and MongoDB for a full-featured e-commerce platform.",
+      "title": "Math Learning System",
+      "description": "Built a Python-based solution generator and Markdown template system to deliver detailed explanations of math questions.",
       "category": "Backend",
-      "author": "Brian Chen"
+      "tags":["Python", "Flask", "PostgreSQL", "AWS", "Markdown"],
+      "gitURL": "https://github.com/luxiay/Solution_Generator"
     },
     {
       "id": 3,
-      "title": "Full Stack Blogging Platform",
-      "description": "A MERN stack blogging platform with user authentication, markdown support, and post management.",
-      "category": "Full Stack",
-      "author": "Carla Lopez"
+      "title": "Heart Failure Readmission Prediction",
+      "description": "A predictive deep learning project using NLP and CNN to analyze clinical notes from Kaggle datasets. Achieved 8.2% better accuracy than traditional models. Included hyperparameter tuning and chi-square feature analysis for medical insight.",
+      "category": "Machine Learning",
+      "tags": ["Python", "CNN", "NLP", "Kaggle"],
+      "gitURL": "https://github.com/luxiay/Heart_Failure_Readmission_Prediction"
     },
     {
       "id": 4,
-      "title": "Event Management App",
-      "description": "A full-stack app to create, manage, and RSVP to events. Uses React frontend and Firebase backend.",
-      "category": "Full Stack",
-      "author": "Frank Torres"
+      "title": "Where to Go Application",
+      "description": "A travel companion app built with Java and Kotlin in Android Studio. It merges functionalities from multiple travel apps to compare weather conditions between cities. Features include user signup/login, favorite cities, customizable comparisons, and real-time weather with Google Maps SDK integration.",
+      "category": "Mobile",
+      "tags": ["Java", "Kotlin", "Android Studio", "Google Maps SDK"],
+      "gitURL": "https://github.com/uiuc-cs427-f23-team20/termproject"
     }
   ]

@@ -8,6 +8,99 @@ html, body {
   color: #db7dde;
 }
 
-/* @layer utilities {
-  
-} */
+
+@theme {
+  --color-border: hsl(var(--border));
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+
+  --color-card: hsl(var(--card));
+}
+
+@layer base {
+  :root {
+    --background: 210 40% 98%;
+    --foreground: 222 47% 11%;
+
+    --card: 0 0% 100%;
+
+    --primary: 250 47% 60%;
+    --primary-foreground: 210 40% 98%;
+
+    --border: 214 32% 91%;
+  }
+
+  .dark {
+    --background: 222 47% 4%;
+    --foreground: 213 31% 91%;
+
+    --card: 222 47% 8%;
+
+    --primary: 250 65% 65%;
+    --primary-foreground: 213 31% 91%;
+
+    --border: 217 33% 20%;
+  }
+
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground transition-colors duration-300;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+} 
+
+.text-glow {
+  position: relative;
+  text-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
+}
+
+/* 渐变边框 */
+.gradient-border {
+  position: relative;
+  border-radius: 0.5rem; /* rounded-md */
+  border: 2px solid transparent;
+  background-image: linear-gradient(#f1eded, #fbf6f6), linear-gradient(90deg, #3b82f6, #9333ea);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+
+/* hover 效果 */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.cosmic-button {
+  @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium transition-all duration-300;
+}
+
+.cosmic-button:hover {
+  box-shadow: 0 0 10px rgba(139, 92, 246, 0.5);
+  transform: scale(1.05);
+}
+
+.cosmic-button:active {
+  transform: scale(0.95);
+}
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}

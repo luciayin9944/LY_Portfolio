@@ -14,12 +14,12 @@
   background-color: #5e5c5c;
   transition: transform 0.2s ease, background-color 0.3s ease;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  color: #e0e6ed;
+  color: #b8cee6;
   text-align: left;
 }
 
 .project-card:hover {
-  background-color: #1a3b6e;
+  background-color: #34445c;
   transform: translateY(-4px);
 }
 
@@ -29,18 +29,6 @@
   color: #d081c8;
 }
 
-.project-card .author {
-  font-size: 0.95rem;
-  color: #94a3b8;
-  margin-bottom: 1px;
-}
-
-.project-card .category {
-  font-size: 0.85rem;
-  color: #7fa7d6;
-  font-weight: 500;
-  margin-bottom: 5px;
-}
 
 .project-card p {
   font-size: 1rem;

@@ -5,8 +5,9 @@ import { LoadingScreen } from './components/LoadingScreen'
 import { Navbar } from './components/Navbar'
 import { Home } from './components/sections/Home' 
 import { About } from './components/sections/About'
+import { Contact } from "./components/sections/Contact"
+//import { Resume } from "./components/sections/Resume"
 import Projects from './components/sections/Projects'
-// WRONG: import { Projects } from './components/sections/Projects'
 import projectsData from './data/projectsData.json';
 
 
@@ -22,7 +23,7 @@ function App() {
         //console.log("Loading complete!")
         setIsLoaded(true)
         }} />}
-        {/* <Navbar /> */}
+
       <div
         className={`min-h-screen transition-opacity duration-700 ${
           isLoaded ? "opacity-100" : "opacity-0"
@@ -32,7 +33,7 @@ function App() {
         <Home />
         <About />
         <Projects projects={projects}/>
-  
+        <Contact />
       </div>
     </>
   )

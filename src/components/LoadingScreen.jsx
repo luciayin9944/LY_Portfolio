@@ -29,9 +29,9 @@ export const LoadingScreen = ({ onComplete }) => {
 
     return (
         <div className="fixed inset-0 a-50 bg-black text-pink-300 flex flex-col items-center justify-center "> 
-            <div className="text-4xl font-mono">
+            <div className="text-6xl font-mono">
                 {text}
             </div>
         </div>
-    )
-}
+    );
+};
