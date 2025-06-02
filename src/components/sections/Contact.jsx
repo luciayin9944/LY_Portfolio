@@ -34,7 +34,7 @@ export const Contact = () => {
             Get In <span className="text-primary"> Touch</span>
             </h2>
  
-            <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3>
+            {/* <h3 className="text-2xl font-semibold mb-6"> Send a Message</h3> */}
 
             <form className="space-y-6" onSubmit={handleSubmit}>
               <div>
@@ -104,7 +104,7 @@ export const Contact = () => {
               </div>
 
               <button type="submit" className="cosmic-button w-full flex items-center justify-center gap-2">
-                Send
+                Send Message
                 <Send size={16} />
               </button>
             </form>
