@@ -18,7 +18,7 @@ function Projects({ projects }) {
                 <a
                     className="cosmic-button w-fit flex items-center mx-auto gap-2"
                     target="_blank"
-                    href="https://github.com/luxiay"
+                    href="https://github.com/luciayin9944"
                 >
                     Check My Github <ArrowRight size={16} />
                 </a>

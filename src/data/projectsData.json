@@ -1,11 +1,11 @@
 [
     {
       "id": 1,
-      "title": "Responsive E-commerce Admin Portal",
-      "description": "A modern E-commerce Admin Portal built with React.js, and CSS. It allows administrators to manage a coffee shop catalog through a clean UI and intuitive navigation.",
-      "category": "Frontend",
-      "tags":["React.js", "CSS", "HTML"],
-      "gitURL": "https://github.com/luxiay/React_Coffee_Shop_Web"
+      "title": "Expense Tracker",
+      "description": "This is a secure full-stack expense tracker built with React and Flask, featuring full user authentication and CRUD functionality. Users can manage expenses with filtering, categorization, and visual summaries including totals and percentage breakdowns.",
+      "category": "Full Stack",
+      "tags":["Python", "Flask", "React.js", "HTML", "SQLite/PostgreSQL"],
+      "gitURL": "https://github.com/luciayin9944/Expense_Tracker_APP"
     },
     {
       "id": 2,

@@ -1,4 +1,4 @@
-import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import { Github } from "lucide-react";
 function ProjectCard({ project }) {
     return (
         <div className="project-card">
@@ -21,7 +21,7 @@ function ProjectCard({ project }) {
                       target="_blank"
                       className="text-foreground/80 hover:text-primary transition-colors duration-300"
                     >
-                      <div className="flex items-center gap-2">
+                      <div className="flex items-center gap-2 mb-12 ">
                         <span>GitHub</span>
                         <Github size={20} />
                       </div>
