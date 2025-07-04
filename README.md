@@ -8,4 +8,13 @@ The purpose of this project is to introduce myself and display my work.
 - React
 - Tailwind CSS
 
+## Set Up
+
+
+To get set up, run:
+
+```bash
+npm install
+npm run dev
+```
 
