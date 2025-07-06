@@ -12,7 +12,8 @@ export const Home = () => {
                 </p>
                 <div className="flex justify-center space-x-4">
                   <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
-                    <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer" className="cosmic-button">
+                    {/* <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer" className="cosmic-button"> */}
+                    <a href="/Portfolio/Resume.pdf" target="_blank" rel="noopener noreferrer" className="cosmic-button">
                         Resume
                     </a>
                     <a href="#contact" className="cosmic-button">
