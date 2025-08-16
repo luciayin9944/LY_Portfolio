@@ -1,11 +1,12 @@
 [
+
     {
       "id": 1,
-      "title": "SpenDiary",
-      "description": "A secure full-stack expense tracker built with React and Flask, allowing users to manage expenses with filtering, categorization, and interactive visual summaries to understand spending patterns.",
+      "title": "MoodJournal",
+      "description": "A secure full-stack mood tracker built with React and Flask that lets users log daily journals, analyze emotional trends, and receive AI-powered weekly self-care insights.",
       "category": "Full Stack",
-      "tags":["Python", "Flask", "React.js", "HTML", "SQLite/PostgreSQL"],
-      "gitURL": "https://github.com/luciayin9944/Expense_Tracker_App"
+      "tags":["Python", "Flask", "React", "OpenAI", "PostgreSQL", "Mantine", "Recharts", "Axios", "JWT"],
+      "gitURL": "https://github.com/luciayin9944/MoodJournal_App"
     },
     {
       "id": 2,
@@ -30,5 +31,15 @@
       "category": "Mobile",
       "tags": ["Java", "Kotlin", "Android Studio", "Google Maps SDK"],
       "gitURL": "https://github.com/uiuc-cs427-f23-team20/termproject"
+    },
+    {
+      "id": 5,
+      "title": "SpenDiary",
+      "description": "A secure full-stack expense tracker built with React and Flask, allowing users to manage expenses with filtering, categorization, and interactive visual summaries to understand spending patterns.",
+      "category": "Full Stack",
+      "tags":["Python", "Flask", "React.js", "HTML", "PostgreSQL"],
+      "gitURL": "https://github.com/luciayin9944/Expense_Tracker_App"
     }
   ]
+
+    
