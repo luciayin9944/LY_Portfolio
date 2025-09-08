@@ -34,8 +34,8 @@
     },
     {
       "id": 5,
-      "title": "SpenDiary",
-      "description": "A secure full-stack expense tracker built with React and Flask, allowing users to manage expenses with filtering, categorization, and interactive visual summaries to understand spending patterns.",
+      "title": "TrackTrip",
+      "description": "A cloud-based web application built with a React frontend hosted on AWS Amplify, a Flask backend deployed on Elastic Beanstalk, and a PostgreSQL database on RDS. It allows users to track and manage expenses with filtering, categorization, and interactive visual summaries to understand spending patterns.",
       "category": "Full Stack",
       "tags":["Python", "Flask", "React.js", "HTML", "PostgreSQL"],
       "gitURL": "https://github.com/luciayin9944/Expense_Tracker_App"

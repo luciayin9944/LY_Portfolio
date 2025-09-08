@@ -5,24 +5,24 @@
       "title": "MoodJournal",
       "description": "A secure full-stack mood tracker built with React and Flask that lets users log daily journals, analyze emotional trends, and receive AI-powered weekly self-care insights.",
       "category": "Full Stack",
-      "tags":["Python", "Flask", "React", "OpenAI", "PostgreSQL", "Mantine", "Recharts", "Axios", "JWT"],
+      "tags":["Python", "Flask", "React.js", "OpenAI", "PostgreSQL", "Mantine", "Recharts", "Axios", "JWT"],
       "gitURL": "https://github.com/luciayin9944/MoodJournal_App"
     },
     {
       "id": 2,
+      "title": "TrackTrip",
+      "description": "A cloud-based web application built with a React frontend hosted on AWS Amplify, a Flask backend deployed on Elastic Beanstalk, and a PostgreSQL database on RDS. It allows users to track and manage expenses with filtering, categorization, and interactive visual summaries to understand spending patterns.",
+      "category": "Full Stack",
+      "tags":["Python", "Flask", "React.js", "HTML", "PostgreSQL", "AWS"],
+      "gitURL": "https://github.com/luciayin9944/TrackTrip_App.git"
+    },
+    {
+      "id": 3,
       "title": "Math Learning System",
       "description": "Built a Python-based solution generator and Markdown template system to deliver detailed explanations of math questions.",
       "category": "Backend",
       "tags":["Python", "Flask", "PostgreSQL", "AWS", "Markdown"],
-      "gitURL": "https://github.com/luxiay/Solution_Generator"
-    },
-    {
-      "id": 3,
-      "title": "Heart Failure Readmission Prediction",
-      "description": "A predictive deep learning project using NLP and CNN to analyze clinical notes from Kaggle datasets. Achieved 8.2% better accuracy than traditional models. Included hyperparameter tuning and chi-square feature analysis for medical insight.",
-      "category": "Machine Learning",
-      "tags": ["Python", "CNN", "NLP", "Kaggle"],
-      "gitURL": "https://github.com/luxiay/Heart_Failure_Readmission_Prediction"
+      "gitURL": "https://github.com/luciayin9944/Solution_Generator.git"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "description": "A travel companion app built with Java and Kotlin in Android Studio. It merges functionalities from multiple travel apps to compare weather conditions between cities. Features include user signup/login, favorite cities, customizable comparisons, and real-time weather with Google Maps SDK integration.",
       "category": "Mobile",
       "tags": ["Java", "Kotlin", "Android Studio", "Google Maps SDK"],
-      "gitURL": "https://github.com/uiuc-cs427-f23-team20/termproject"
+      "gitURL": "https://github.com/luciayin9944/termproject.git"
     }
   ]
 
